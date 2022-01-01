@@ -24,10 +24,9 @@ class AuthController extends Controller
             if (!empty($user)) {
                 $user = new GenericUser((array) $user[0]);
                 if (password_verify(hash('sha512', $request->input('password')), $user->password)) {
-                    $token = $user->api_token;
                     return response()->json([
                         'success' => true,
-                        'api_token' => $token
+                        'api_token' => $user->api_token
                     ], 200);
                 }
             }
