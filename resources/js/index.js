@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import App from './src/App.vue';
-new Vue({
-    el: '#app__i',
-    template: '<App/>',
-    components: { App }
+function render(h) {
+  return h(App);
+}
+const app = new Vue({
+    render
 });
+app.$mount('#app__i');
