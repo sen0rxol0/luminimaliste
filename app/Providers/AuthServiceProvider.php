@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Auth\GenericUser;
@@ -29,12 +30,24 @@ class AuthServiceProvider extends ServiceProvider
         // application. The callback which receives the incoming request instance
         // should return either a User instance or null. You're free to obtain
         // the User instance via an API token or any other method necessary.
-
+        
         $this->app['auth']->viaRequest('api', function ($request) {
-            if ($request->input('api_token')) {
-                // return User::where('api_token', $request->input('api_token'))->first();
-                return new GenericUser(['id' => 1, 'name' => 'Taylor']);
+            if ($request->hasHeader('Authorization')) {
+                $api_token = str_replace('Bearer: ', '', $request->header('Authorization'));
+                $user = DB::select('SELECT * FROM users WHERE api_token = ?', [$api_token]);
+                if (!empty($user)) {
+                    $user = (array) $user[0];
+                    return new GenericUser($user);
+                }
             }
+            return null;
         });
+        
+//         $this->app['auth']->viaRequest('api', function ($request) {
+//             if ($request->input('api_token')) {
+//                 // return User::where('api_token', $request->input('api_token'))->first();
+//                 return new GenericUser(['id' => 1, 'name' => 'Taylor']);
+//             }
+//         });
     }
 }
