@@ -21,7 +21,7 @@ class AuthController extends Controller
         if ($request->has(['email', 'password'])) {
             $token = 'token';
             $user = DB::select('SELECT * FROM users WHERE email = ?', [$request->input('email')]);
-            if ($user && password_verify($request->input('password'), $user->password)) {
+            if (!empty($user) && password_verify($request->input('password'), $user[0]->password)) {
                 return response()->json([
                     'success' => true,
                     'api_token' => $token
