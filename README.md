@@ -21,7 +21,7 @@ Pour demmarer il faut:
     3.1. Dans le repertoire git: `composer install` 
 4. Installer [Node.js](https://nodejs.org/en/download/)
 
-    4.1. Dans le repertoire git: `npm install`
+    4.1. Dans le repertoire git: `npm install` et `npm run build`
 5. Lancer l'application: `php artisan serve`
 
 Ceci contient: Vue.js SPA et Authentification
