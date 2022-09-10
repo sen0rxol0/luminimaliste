@@ -1,13 +1,21 @@
 ## About
 
 Pour demmarer il faut:
+
 1. Telechager: $`git clone https://github.com/sen0rxol0/luminimaliste.git`
+
 2. Intaller PHP
+    
     2.1. sous macOS, installer [Homebrew](https://brew.sh/)
+        
         2.1.1. $`brew install php`
+    
     2.2. sous Windows, installer @TODO
+
 3. Installer [Composer](https://getcomposer.org/download/)
+    
     3.1. `` 
+
 4. Installer Node.js
 
 
