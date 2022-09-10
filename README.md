@@ -3,20 +3,17 @@
 Pour demmarer il faut:
 
 1. Telechager: `git clone https://github.com/sen0rxol0/luminimaliste.git`
-
 2. Intaller PHP
 
     2.1. sous macOS, installer [Homebrew](https://brew.sh/)
-     
-        brew install php
-    
+        2.1.1 `brew install php`
     2.2. sous Windows, installer @TODO
-
 3. Installer [Composer](https://getcomposer.org/download/)
     
-    3.1. `` 
+    3.1. Dans le repertoire git: `composer install` 
+4. Installer [Node.js](https://nodejs.org/en/download/)
 
-4. Installer Node.js
+    4.1. Dans le repertoire git: `npm install`
 
 
 ## Lumen PHP Framework
