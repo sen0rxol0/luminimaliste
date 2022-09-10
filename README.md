@@ -16,7 +16,7 @@ Pour demmarer il faut:
 4. Installer [Node.js](https://nodejs.org/en/download/)
 
     4.1. Dans le repertoire git: `npm install`
-
+5. Lancer le projet: `php artisan serve`
 
 ## Lumen PHP Framework
 
