@@ -2,7 +2,7 @@
 
 Ceci contient: Vue.js SPA et Authentification
 
-Pour demmarer il faut:
+Pour démarrer il faut:
 
 1. Installer [Git](https://git-scm.com/downloads) 
     
@@ -20,10 +20,10 @@ Pour demmarer il faut:
     2.3. sous Linux: `apt install php`
 3. Installer [Composer](https://getcomposer.org/download/)
     
-    3.1. Dans le repertoire git: `composer install` 
+    3.1. Dans le répertoire _git_: `composer install` 
 4. Installer [Node.js](https://nodejs.org/en/download/)
 
-    4.1. Dans le repertoire git: `npm install` et `npm run build`
+    4.1. Dans le répertoire _git_: `npm install` et `npm run build`
 5. Lancer l'application: `php artisan serve`
 
 ## Lumen PHP Framework
