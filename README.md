@@ -1,6 +1,6 @@
 ## About
 
-Ceci contient: Vue.js SPA et Authentification
+Ceci contient: Vue.js SPA et Authentification via API
 
 Pour démarrer il faut:
 
