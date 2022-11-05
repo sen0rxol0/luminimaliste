@@ -1,5 +1,7 @@
 ## About
 
+Ceci contient: Vue.js SPA et Authentification
+
 Pour demmarer il faut:
 
 1. Installer [Git](https://git-scm.com/downloads) 
@@ -23,8 +25,6 @@ Pour demmarer il faut:
 
     4.1. Dans le repertoire git: `npm install` et `npm run build`
 5. Lancer l'application: `php artisan serve`
-
-Ceci contient: Vue.js SPA et Authentification
 
 ## Lumen PHP Framework
 
