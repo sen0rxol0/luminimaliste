@@ -6,20 +6,20 @@ Pour démarrer il faut:
 
 1. Installer [Git](https://git-scm.com/downloads) 
     
-    1.1. `git clone https://github.com/sen0rxol0/luminimaliste.git`
+    - `git clone https://github.com/sen0rxol0/luminimaliste.git`
 2. Installer PHP
 
-    2.1. sous macOS: installer [Homebrew](https://brew.sh/). `brew install php`
+    - sous macOS: installer [Homebrew](https://brew.sh/). `brew install php`
     
-    2.2. sous Windows: installer [Chocolatey](https://chocolatey.org/). `choco install php`
+    - sous Windows: installer [Chocolatey](https://chocolatey.org/). `choco install php`
     
-    2.3. sous Linux: `apt install php`
+    - sous Linux: `apt install php`
 3. Installer [Composer](https://getcomposer.org/download/)
     
-    3.1. Dans le répertoire racine: `composer install` 
+    - Dans le répertoire racine: `composer install` 
 4. Installer [Node.js](https://nodejs.org/en/download/)
 
-    4.1. Dans le répertoire racine: `npm install` et `npm run build`
+    - Dans le répertoire racine: `npm install` et `npm run build`
 5. Lancer l'application: `php -S localhost:7331 -t public`
 
 > PS: Faudrait-il aussi installer et configurer MySQL 
