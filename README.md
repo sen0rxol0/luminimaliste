@@ -26,6 +26,8 @@ Pour démarrer il faut:
     4.1. Dans le répertoire racine: `npm install` et `npm run build`
 5. Lancer l'application: `php -S localhost:7331 -t public`
 
+> PS: Faudrait-il aussi installer et configurer MySQL 
+
 ## Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
