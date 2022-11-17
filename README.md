@@ -20,11 +20,11 @@ Pour démarrer il faut:
     2.3. sous Linux: `apt install php`
 3. Installer [Composer](https://getcomposer.org/download/)
     
-    3.1. Dans le répertoire _git_: `composer install` 
+    3.1. Dans le répertoire racine: `composer install` 
 4. Installer [Node.js](https://nodejs.org/en/download/)
 
-    4.1. Dans le répertoire _git_: `npm install` et `npm run build`
-5. Lancer l'application: `php artisan serve`
+    4.1. Dans le répertoire racine: `npm install` et `npm run build`
+5. Lancer l'application: `php -S localhost:7331 -t public`
 
 ## Lumen PHP Framework
 
