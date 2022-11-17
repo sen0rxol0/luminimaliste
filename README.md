@@ -9,13 +9,9 @@ Pour démarrer il faut:
     1.1. `git clone https://github.com/sen0rxol0/luminimaliste.git`
 2. Installer PHP
 
-    2.1. sous macOS, installer [Homebrew](https://brew.sh/)    
+    2.1. sous macOS: installer [Homebrew](https://brew.sh/). `brew install php`
     
-    2.1.1. `brew install php`
-    
-    2.2. sous Windows, installer [Chocolatey](https://chocolatey.org/)   
-    
-    2.2.1. `choco install php`
+    2.2. sous Windows: installer [Chocolatey](https://chocolatey.org/). `choco install php`
     
     2.3. sous Linux: `apt install php`
 3. Installer [Composer](https://getcomposer.org/download/)
