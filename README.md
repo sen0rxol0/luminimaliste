@@ -22,7 +22,7 @@ Pour démarrer il faut:
     - Dans le répertoire racine: `npm install` et `npm run build`
 5. Lancer l'application: `php -S localhost:7331 -t public`
 
-> PS: Faudrait-il aussi installer et configurer MySQL 
+> PS: Faudrait-il aussi l'installation et configuration MySQL 
 
 ## Lumen PHP Framework
 
